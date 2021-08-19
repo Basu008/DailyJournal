@@ -60,8 +60,9 @@ public class JournalRecyclerAdapter extends RecyclerView.Adapter<JournalViewHold
         holder.getShare().setOnClickListener( v -> {
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");
+            String url = "https://github.com/Basu008/DailyJournal";
             intent.putExtra(Intent.EXTRA_TEXT, "Hey there!\nI just posted a new update about my day" +
-                    " on DailyJournal app, Check it out!");
+                    " on DailyJournal app\nCheck it out :" + url);
             context.startActivity(intent);
 
         });
