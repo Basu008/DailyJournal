@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Daily Journal</string>
+    <string name="happyText">Don\'t forget to love yourself</string>
+    <string name="startButton">Get started</string>
+    <string name="heading">Love. Live. Laugh</string>
+    <string name="signUpButtonText">Sign Up</string>
+    <string name="filler">Or</string>
+    <string name="logInButtonText">Log in</string>
+    <string name="passwordText">Enter password</string>
+    <string name="emailText">Enter email</string>
+    <string name="usernameText">Enter username </string>
+    <string name="postDescText">Write your thoughts about it.....</string>
+    <string name="postTitle">What happened?</string>
+    <string name="postButtonText">Post</string>
+    <string name="postDate">Today</string>
+    <string name="menu_add_title">Add Journal</string>
+    <string name="menu_sign_out">Sign Out</string>
+</resources>
